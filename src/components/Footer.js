@@ -5,7 +5,7 @@ import Logo from '../assets/images/mylogo.png';
 
 const Footer = () => {
   return (
-    <Box m="50px auto 0 auto" bgcolor="#f39c12" p="20px 0">
+    <Box m="50px auto 0 auto" bgcolor="#FBAB7E" p="20px 0">
       <Stack direction="row"  justifyContent="center" alignItems="center" >
         <img src={Logo} alt="logo" style={{ width: 'auto', height: '60px' }}/>
         <Typography ml="10px">
