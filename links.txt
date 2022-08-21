@@ -1,0 +1,3 @@
+css: 	https://gist.github.com/adrianhajdin/65d0f830036fd72b22f2d921ae3e29ad
+api: 	https://rapidapi.com/apidojo/api/tasty/
+video: 	https://www.youtube.com/watch?v=KBpoBc98BwM
