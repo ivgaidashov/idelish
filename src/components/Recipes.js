@@ -35,7 +35,7 @@ const Recipes = ({ setRecipes, recipes, category,  isFetching, setFetching}) => 
           categoriesOptions
         );
       }
-
+console.log(categoryData)
       setFetching('False');
       setRecipes(categoryData.results.filter(function (e) {
         return e.aspect_ratio == "1:1";
@@ -43,6 +43,7 @@ const Recipes = ({ setRecipes, recipes, category,  isFetching, setFetching}) => 
     };
 
     fetchCategoryData();
+    
     
   }, [category]);
 
